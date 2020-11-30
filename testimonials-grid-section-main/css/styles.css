@@ -20,7 +20,7 @@ main {
     background-color: hsl(263, 55%, 52%);
     border: 1px solid hsl(263, 55%, 52%);
     border-radius: 10px;
-    padding: 25px;
+    padding: 30px;
     z-index: 0;
 }
 .bg-quotation {
@@ -28,7 +28,8 @@ main {
 }
 .image-quote {
     position: absolute;
-    left: 300px;
+    left: 410px;
+    top: -25px;
     z-index: 1;
 }
 .card-header {
@@ -36,8 +37,8 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    min-height: 60px;
-    margin-bottom: 20px;
+    min-height: 50px;
+    margin-bottom: 10px;
 }
 .profile-one .card-header h5 {
     color: rgba(255, 255, 255, 0.5);
@@ -47,6 +48,9 @@ main {
     border-radius: 100px;
     float: left;
     margin-right: 20px;
+    margin-top: 3px;
+    height: 45px;
+    width: 45px;
 }
 .profile-name-alt {
     color: white;
@@ -71,15 +75,21 @@ main {
     background-color: hsl(217, 19%, 35%);
     border: 1px solid hsl(217, 19%, 35%);
     border-radius: 10px;
-    padding: 25px;
+    padding: 30px;
 }
 .profile-two img {
     border: rgba(255, 255, 255, 0);
     border-radius: 100px;
     float: left;
     margin-right: 20px;
+    margin-top: 5px;
+    height: 45px;
+    width: 45px;
 }
-.profile-two .quote-small {
+.profile-two .card-header h5 {
+    color: rgba(255, 255, 255, 0.5);
+}
+.profile-two p {
     color: rgba(255, 255, 255, 0.7);
 }
 
@@ -91,25 +101,22 @@ main {
     background-color: hsl(0, 0%, 100%);
     border: 1px solid hsl(0, 0%, 100%);
     border-radius: 10px;
-    padding: 25px;
+    padding: 30px;
 }
 .profile-three img {
     border: rgba(255, 255, 255, 0);
     border-radius: 100px;
     float: left;
     margin-right: 20px;
+    margin-top: 3px;
+    height: 45px;
+    width: 45px;
 }
 .profile-three .card-header h5 {
     color: rgba(0, 0, 0, 0.5);
 }
-.quotes {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
-    position: relative;
-    top: 20px;
-}
 .profile-three p {
+    margin-top: 50px;
     color: rgba(0, 0, 0, 0.7);
 }
 
@@ -120,18 +127,21 @@ main {
     background-color: hsl(219, 29%, 14%);
     border: 1px solid hsl(219, 29%, 14%);
     border-radius: 10px;
-    padding: 25px;
+    padding: 30px;
 }
 .profile-four img {
     border: 4px solid hsl(263, 100%, 70%);
     border-radius: 100px;
     float: left;
     margin-right: 20px;
+    margin-top: 3px;
+    height: 45px;
+    width: 45px;
 }
 .profile-name-light {
     color: white;
 }
-.card-header h5 {
+.profile-four .card-header h5 {
     color: rgba(255, 255, 255, 0.5);
 }
 .profile-four h2 {
@@ -149,13 +159,16 @@ main {
     background-color: hsl(0, 0%, 100%);
     border: 1px solid hsl(0, 0%, 100%);
     border-radius: 10px;
-    padding: 25px;
+    padding: 30px;
 }
 .profile-five img {
     border: 4px solid hsla(0, 0%, 100%, 0);
     border-radius: 100px;
     float: left;
-    margin-right: 20px; 
+    margin-right: 20px;
+    margin-top: 3px;
+    height: 45px;
+    width: 45px; 
 }
 .card-header h5 {
     color: hsla(0, 0%, 0%, .5)
